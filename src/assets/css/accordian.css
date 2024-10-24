@@ -1,0 +1,28 @@
+.accordian-button{
+    color: var(--button-nav-color);
+    margin-left: 2%;
+    margin-bottom: 2%; 
+    font-weight: bold;
+}
+.accordion{
+
+}
+.accordian-mobile-image{
+display: none;
+}
+.accordion-header-active{
+    /* background-color: black; 
+    color: #fff; */
+}
+
+@media (max-width: 768px) {
+    .accordian-mobile-image{
+        display: block;
+        text-align: center;
+    } 
+    .accordian-mobile-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+  }

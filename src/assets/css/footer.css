@@ -1,0 +1,24 @@
+.footer-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #96979E; 
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+.footer-tc{
+    margin: 2% 3%;
+} 
+.footer-cr{
+    margin: 2% 3%;
+}
+
+/* mq */
+
+@media only screen and (max-width: 768px) { 
+    .footer-parent{
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+    }
+}
