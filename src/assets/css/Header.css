@@ -12,6 +12,10 @@
     position: sticky;
     top: 0;
 }
+.Header-Parent:hover{
+background-color: #fff;
+color:var(--primary-background-color) ;
+}
 
 .Header-Name h3 {
     margin: 0;

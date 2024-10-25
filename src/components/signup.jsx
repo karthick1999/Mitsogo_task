@@ -5,7 +5,7 @@ import { ErrorMessages } from '../common/constants';
 
 import "../assets/css/signup.css";
 
-function Signup(props) {
+function Signup() {
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState('');
 

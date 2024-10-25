@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 
-import "../assets/css/Header.css";  
+import "../assets/css/header.css";  
 
 import menuIcon from "../assets/images/menu.png";
 import closeIcon from "../assets/images/close.png";

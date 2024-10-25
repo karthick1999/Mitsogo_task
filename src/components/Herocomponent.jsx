@@ -4,9 +4,11 @@ import { emailRegex } from '../common/validation';
 
 import "../assets/css/herocomponent.css";
 
-import heroImg from "../assets/images/hexnode-kiosk.webp";
+import heroImg from "../assets/images/hexnode-kiosk.webp"; 
 
-function Herocomponent(props) {
+import { ErrorMessages } from '../common/constants';
+
+function Herocomponent() {
 
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState('');
@@ -14,7 +16,7 @@ function Herocomponent(props) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!emailRegex.test(email)) {
-          setEmailError('Please enter a valid email address.');
+          setEmailError(ErrorMessages.Email);
         } else {
           setEmailError('');
         }

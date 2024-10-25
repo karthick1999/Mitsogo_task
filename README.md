@@ -43,7 +43,7 @@ added zoom in effect for hero section , and added testing library jest for unit 
 
 5.[Development Process] 
 
-During the development process intially everything was fine unit i reached owl carousel which is new to me took some time on that and mobile header made me hard to work on, learnt transitions through this project .
+During the development process intially everything was fine unit i reached owl carousel which is new to me took some time on that ,it requires some pre requirement like jquery i havent used before , and mobile header made me hard to work on, learnt transitions through this project .
 
 
 

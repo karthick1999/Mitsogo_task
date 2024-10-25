@@ -6,8 +6,6 @@ import '../assets/css/maincarousel.css';
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-   
-
     // Function to handle navigation
     const showItem = (index) => {
         if (index < 0) {
@@ -29,16 +27,16 @@ const Carousel = () => {
                 >
                     {items.map((item, index) => (
                         <div className="carousel-item" key={index}>
-                         <div className='carousel-img'> 
-                            <img src='https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Fcustomer-images%2Fchris-robinson.png&w=2048&q=80' alt='carousel-img' />
-                        </div> 
-                        <div className="carouse-detial">
-                            <div className="carousel-detial-top">img elements must have an alt prop, either with meaningful text, </div> 
-                            <div className="carousel-detial-bottom">
-                                <p className='carousel-detial-auth-title'>Mr kitzubuki</p> 
-                                <p className='carousel-detial-auth-name'>Chan</p>
+                            <div className='carousel-img'>
+                                <img src='https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Fcustomer-images%2Fchris-robinson.png&w=2048&q=80' alt='carousel-img' />
                             </div>
-                        </div>
+                            <div className="carouse-detial">
+                                <div className="carousel-detial-top">img elements must have an alt prop, either with meaningful text, </div>
+                                <div className="carousel-detial-bottom">
+                                    <p className='carousel-detial-auth-title'>Mr kitzubuki</p>
+                                    <p className='carousel-detial-auth-name'>Chan</p>
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </div>

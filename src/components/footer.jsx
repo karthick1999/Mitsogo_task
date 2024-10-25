@@ -2,7 +2,7 @@ import React from 'react';
 
 import "../assets/css/footer.css";
 
-function Footer(props) {
+function Footer() {
     return (
         <div className='footer-parent'>
             <div className='footer-tc'>

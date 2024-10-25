@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import "../assets/css/usecase.css";
 
-function Usecase(props) {
+function Usecase() {
   const [activeTab, setActiveTab] = useState('singleApp');
 
   const handleTab = (tabName) => {

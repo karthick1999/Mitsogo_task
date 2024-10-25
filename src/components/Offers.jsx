@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import Accordion from './Accordian';  
+import Accordion from './Accordion';  
 
 import {imagesList} from "../common/constants";
 
-import "../assets/css/Offers.css"; 
+import "../assets/css/offers.css"; 
 
 const Offers = () => {
     const [openAccordionIndex, setOpenAccordionIndex] = useState(null);
@@ -13,13 +13,12 @@ const Offers = () => {
 
     
 
-    // Function to toggle the accordion by index and set the corresponding image
     const toggleAccordion = (index) => {
         if (openAccordionIndex !== index) {
-            setAnimateImage(false); // Reset animation
+            setAnimateImage(false); 
             setTimeout(() => {
-                setCurrentImage(imagesList[index - 1]); // Set new image
-                setAnimateImage(true); // Trigger animation after image change
+                setCurrentImage(imagesList[index - 1]); 
+                setAnimateImage(true); 
             }, 200); // Delay to allow animation reset
         }
         setOpenAccordionIndex(openAccordionIndex === index ? null : index);
@@ -36,16 +35,14 @@ const Offers = () => {
 
     return (
         <div className="image-accordion-container">
-            {/* Left side image */}
             <div className="image-section">
                 <img
                     src={currentImage}
                     alt="Sample"
-                    className={`side-image ${animateImage ? 'slide-in' : ''}`} // Apply animation class when image changes
+                    className={`side-image ${animateImage ? 'slide-in' : ''}`} 
                 />
             </div>
 
-            {/* Right side with multiple accordions */}
             <div className="accordion-section">
                 <Accordion
                     title="Effortless kiosk deployment & management"

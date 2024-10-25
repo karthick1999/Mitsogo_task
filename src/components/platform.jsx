@@ -6,7 +6,7 @@ import appleIcon from "../assets/images/apple-tv.svg";
 import androidIcon from "../assets/images/android.svg"; 
 import amazonIcon from "../assets/images/amazon-fire.webp"; 
 import androidTvIcon from "../assets/images/android-tv.svg"
-function Platform(props) {
+function Platform() {
     return (
         <div className='platform-parent'>
 
