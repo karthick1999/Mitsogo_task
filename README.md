@@ -26,9 +26,26 @@ used jest third party testing libarary added for unit testing ,in this project i
 ## Table of Contents
 
 1.[Technologies Used]
-html,css,React js ,react-owl-carousel
+
+html,css,React js ,react-owl-carousel,google fonts used (Roboto);
+
 2.[Contact] 
+
 karthickrvpm@gmail.com
+
+3.[Project Overview] 
+
+Manage devices of varying form factors and operating systems with one solution
+
+4.[Bonus Points] 
+
+added zoom in effect for hero section , and added testing library jest for unit testing ,Optimized using lazy loading 
+
+5.[Development Process] 
+
+During the development process intially everything was fine unit i reached owl carousel which is new to me took some time on that and mobile header made me hard to work on, learnt transitions through this project .
+
+
 
 
 ### `npm run build`
