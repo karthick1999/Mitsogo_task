@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import "../assets/css/accordian.css";
+
 const Accordion = ({ title, content, isOpen, onToggle, src,isActive }) => {
     return (
         <div className="accordion">
@@ -18,7 +19,7 @@ const Accordion = ({ title, content, isOpen, onToggle, src,isActive }) => {
                         <p>{content}</p>
                     </div>
 
-                    <p className='accordian-button'> <a href='https://www.hexnode.com/mobile-device-management/cloud/signup/' target="_blank">TRY FOR FREE &gt;</a></p>
+                    <p className='accordian-button'> <a href='https://www.hexnode.com/mobile-device-management/cloud/signup/' target="_blank" rel="noreferrer">TRY FOR FREE &gt;</a></p>
                 </>
             )}
         </div>

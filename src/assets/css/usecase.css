@@ -19,6 +19,9 @@
   }
   
   .usecase-tab {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
     padding: 12px 20px;
     cursor: pointer;
     border: 1px solid transparent;
@@ -38,7 +41,7 @@
     padding: 20px;
     margin-top: 20px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 0.7px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
@@ -49,7 +52,7 @@
   }
   
   .usecase-view-head {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -95,6 +98,17 @@
   
     .usecase-image img {
       max-width: 80%;
+    }
+    .usecase-view-head{
+      font-size: 22px;
+    }
+    .usecase-heading{
+      font-size: 24px;
+    }
+    .usecase-tab{
+      font-size: 14px;
+      font-weight: 400;
+
     }
   }
   

@@ -1,5 +1,8 @@
 import React ,{useState} from 'react'; 
+
 import { emailRegex } from '../common/validation';
+import { ErrorMessages } from '../common/constants';
+
 import "../assets/css/signup.css";
 
 function Signup(props) {
@@ -9,7 +12,7 @@ function Signup(props) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!emailRegex.test(email)) {
-          setEmailError('Please enter a valid email address.');
+          setEmailError(ErrorMessages.Email);
         } else {
           setEmailError('');
         }
@@ -30,12 +33,12 @@ function Signup(props) {
             </div>
             <div className="signup-form">
                 <input className='signup-input ' type='text' placeholder='your work Email !' onChange={handleEmailChange} /> 
-                <button className=' signup-button' onClick={handleSubmit}>GET STARTED</button>
+                <button className='signup-button' onClick={handleSubmit}>GET STARTED </button>
             </div>
             <p className='signup-email-error'>{emailError}</p>
 
             <div className="signup-demo">
-                <p>No credit cards required <span className='signup-link' ><a href='https://www.hexnode.com/mobile-device-management/request-demo/' target="_blank">Request a demo</a> <span>&gt;</span> </span></p>
+                <p>No credit cards required <span className='signup-link' ><a href='https://www.hexnode.com/mobile-device-management/request-demo/' target="_blank" rel="noreferrer">Request a demo</a> <span>&gt;</span> </span></p>
             </div>
         </div>
     );

@@ -1,7 +1,9 @@
 import React ,{useState}from 'react';  
+
 import { emailRegex } from '../common/validation';
 
-import "../assets/css/herocomponent.css" 
+import "../assets/css/herocomponent.css";
+
 import heroImg from "../assets/images/hexnode-kiosk.webp";
 
 function Herocomponent(props) {

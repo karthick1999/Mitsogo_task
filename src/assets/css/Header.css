@@ -1,6 +1,5 @@
 
 
-/* Parent container styling */
 .Header-Parent {
     display: flex;
     justify-content: space-between;
@@ -61,7 +60,6 @@
     z-index: 999;
 }
 
-/* When active, menu slides in */
 .hamburger-screen.active {
     right: 0; /* Slide in the menu */
 }

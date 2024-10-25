@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
+
 import Accordion from './Accordian';  
+
 import {imagesList} from "../common/constants";
-import "../assets/css/Offers.css"; // Custom CSS
+
+import "../assets/css/Offers.css"; 
 
 const Offers = () => {
     const [openAccordionIndex, setOpenAccordionIndex] = useState(null);

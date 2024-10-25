@@ -10,10 +10,6 @@
 .accordian-mobile-image{
 display: none;
 }
-.accordion-header-active{
-    /* background-color: black; 
-    color: #fff; */
-}
 
 @media (max-width: 768px) {
     .accordian-mobile-image{

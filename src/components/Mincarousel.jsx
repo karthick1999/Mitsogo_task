@@ -1,15 +1,18 @@
 // Import React, OwlCarousel, and CSS
 import React from 'react';
+
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 import OwlCarousel from 'react-owl-carousel2';
 
 import { minCarouselImages } from '../common/constants';
+
 import "../assets/css/mincarousel.css";
 
 const CarouselComponent = () => {
     const options = {
-        items: 3,
+        items: 4,
         loop: true,
         margin: 20,
         autoplay: true,

@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+
+import { MainCarouselItems as items } from '../common/constants';
 import '../assets/css/maincarousel.css';
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // Carousel items array
-    const items = ['Item 1', 'Item 2', 'Item 3']; // Can be dynamic
+   
 
     // Function to handle navigation
     const showItem = (index) => {
